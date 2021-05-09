@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './4sTek.png';
 import './App.css';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://4sTek.com"
           target="_blank"
           rel="noopener noreferrer"
         >
