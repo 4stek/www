@@ -1,14 +1,24 @@
+import { Carousel } from 'bootstrap';
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from './4sTek.png';
 import './App.css';
+import ControlledCarousel from './Carousel';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
+{/*       <header className="App-header">
+
+      </header> */}
+      <body>
+      <ControlledCarousel/> 
+      <p></p>
+      <img src={logo} className="App-logo" alt="logo" />
+{/*         <p>
           4sTek - Home
-        </p>
+        </p> */}
+        <p>
         <a
           className="App-link"
           href="https://4sTek.com"
@@ -17,7 +27,8 @@ function App() {
         >
           4sTek.com
         </a>
-      </header>
+        </p>
+      </body>
     </div>
   );
 }
