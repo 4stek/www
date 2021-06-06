@@ -27,7 +27,7 @@ function ControlledCarousel() {
             />
             <Carousel.Caption>
             {/* <h3>Custom solutions - Standard components</h3> */}
-            <p>The company is founded on the principle that while clients have unique needs that require custom solutions - they can be built using standard components in a cloud native and largely vendor agnostic fashion. </p>
+            <p>The company is founded on the principle that while clients have unique needs that require custom solutions - they can be built using standard components in a cloud native and largely vendor agnostic fashion </p>
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={14000}>
@@ -38,7 +38,7 @@ function ControlledCarousel() {
             />
             <Carousel.Caption>
             {/* <h3>Get in touch</h3> */}
-            <p>We are a company that believe in referals based organic growth.  If you are being pitched a vendor locked-in behemoth of a solution, we will be happy to <a href="mailto:info@4sTek.com?Subject=Need a second opinion">provide a second opinion</a>.  </p>
+            <p>We are a company that believes in referals based organic growth.  If you are being pitched a vendor locked-in behemoth of a solution, we will be happy to <a href="mailto:info@4sTek.com?Subject=Need a second opinion">provide a second opinion</a>.  </p>
             </Carousel.Caption>
         </Carousel.Item>
         </Carousel>
