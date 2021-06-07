@@ -9,10 +9,9 @@ import home from './home.jpg';
 function ControlledCarousel() {
     return (
         <Carousel prevLabel="" nextLabel="">
-        <Carousel.Item interval={14000}>
+        <Carousel.Item interval={14000} className = "carousel-inner">
             <Image
-            className="d-block mw-100 h-25"
-            // src="holder.js/1500x200/auto?bg=453B39&text= "
+            className="h-25"
             src={home}
             alt="About Us"
             responsive/>
@@ -24,11 +23,10 @@ function ControlledCarousel() {
               </b>
             </p>
             </Carousel.Caption>
-            {/* <BottomRight src={logo} style={{position: "absolute", bottom: 0, right: 0}}/> */}
         </Carousel.Item>
-        <Carousel.Item interval={14000}>
+        <Carousel.Item interval={14000} className = "carousel-inner">
             <Image
-            className="d-block mw-100 h-25"
+            className="h-25"
             src={home}
             alt="What we do"
             respnsive/>
@@ -41,9 +39,9 @@ function ControlledCarousel() {
             </p>
             </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item interval={14000}>
+        <Carousel.Item interval={14000} className = "carousel-inner">
             <Image
-            className="d-block mw-100 h-25"
+            className="h-25"
             src={home}
             alt="Contact Us"
             responsive/>
