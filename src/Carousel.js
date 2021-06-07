@@ -1,44 +1,59 @@
 import './App.css';
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Carousel, Image } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "holderjs";
+
+import home from './home.jpg';
 
 function ControlledCarousel() {
     return (
         <Carousel prevLabel="" nextLabel="">
         <Carousel.Item interval={14000}>
-            <img
-            className="d-block w-100"
-            src="holder.js/800x400?bg=453B39&text=About Us \n \n"
+            <Image
+            className="d-block mw-100 h-25"
+            // src="holder.js/1500x200/auto?bg=453B39&text= "
+            src={home}
             alt="About Us"
-            />
+            responsive/>
             <Carousel.Caption>
-            {/* <h3>Who is 4sTek</h3> */}
-            4sTek is a boutique systems integrator firm founded by highly experienced individuals who are passionate about providing custom solutions using industry standard technologies and componenets
+            <h3><b className="border-text-y">About Us</b></h3>             
+            <p>
+              <b className="border-text">
+                4sTek is a boutique systems integrator firm founded by highly experienced individuals who are passionate about providing custom solutions using industry standard technologies and componenets
+              </b>
+            </p>
             </Carousel.Caption>
             {/* <BottomRight src={logo} style={{position: "absolute", bottom: 0, right: 0}}/> */}
         </Carousel.Item>
         <Carousel.Item interval={14000}>
-            <img
-            className="d-block w-100"
-            src="holder.js/800x400?bg=453B39&text=Our Philosophy \n \n"
+            <Image
+            className="d-block mw-100 h-25"
+            src={home}
             alt="What we do"
-            />
+            respnsive/>
             <Carousel.Caption>
-            {/* <h3>Custom solutions - Standard components</h3> */}
-            <p>The company is founded on the principle that while clients have unique needs that require custom solutions - they can be built using standard components in a cloud native and largely vendor agnostic fashion </p>
+            <h3><b className="border-text-y">Our Philosophy</b></h3> 
+            <p>
+              <b className="border-text">
+                The company is founded on the principle that while clients have unique needs that require custom solutions - they can be built using standard components in a cloud native and largely vendor agnostic fashion
+              </b>
+            </p>
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={14000}>
-            <img
-            className="d-block w-100"
-            src="holder.js/800x400?bg=453B39&text=Get In Touch \n \n"
+            <Image
+            className="d-block mw-100 h-25"
+            src={home}
             alt="Contact Us"
-            />
+            responsive/>
             <Carousel.Caption>
-            {/* <h3>Get in touch</h3> */}
-            <p>We are a company that believes in referals based organic growth.  If you are being pitched a vendor locked-in behemoth of a solution, we will be happy to <a href="mailto:info@4sTek.com?Subject=Need a second opinion">provide a second opinion</a>.  </p>
+            <h3><b className="border-text-y">Get in touch</b></h3> 
+            <p>
+              <b className="border-text">
+                We believe in referals based organic growth.  If you are being pitched a behemoth of a solution with high vendor lock-ins, we will be happy to <a  className="border-text-y" href="mailto:info@4sTek.com?Subject=Need a second opinion">provide a second opinion</a>.
+              </b>
+            </p>
             </Carousel.Caption>
         </Carousel.Item>
         </Carousel>

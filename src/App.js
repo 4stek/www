@@ -25,7 +25,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          4sTek.com
+          &copy; 4sTek LLC
         </a>
         </p>
       </body>
