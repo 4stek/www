@@ -42,12 +42,12 @@
   }
 }
 
-.border-text-y {
+.border-text {
   color: yellow;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-.border-text {
+.border-text-y {
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
