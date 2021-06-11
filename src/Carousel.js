@@ -49,7 +49,8 @@ function ControlledCarousel() {
             <h3><b className="border-text-y">Get in touch</b></h3> 
             <p>
               <b className="border-text">
-                We believe in referals based organic growth.  If you are being pitched a behemoth of a solution with high vendor lock-ins, we will be happy to <a  className="border-text-y" href="mailto:info@4sTek.com?Subject=Need a second opinion">provide a second opinion</a>.
+                We believe in referals based organic growth.  If you are being pitched a behemoth of a solution with high vendor lock-ins, we will be happy to 
+                <a  className="border-text-y" href="mailto:info@4sTek.com?Subject=Need a second opinion">provide a second opinion</a>.
               </b>
             </p>
             </Carousel.Caption>
