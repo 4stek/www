@@ -25,9 +25,12 @@ function MiddleContent() {
         <div class="shadow p-3 mb-5 bg-white rounded">
         <b>You are our typical client if you</b>
         <p style={{textAlign: 'left', minHeight: 140}}>
-        &#183; are IT or architecture leader at a medium-sized enterprise or a large enterprise who is not in the IT business.
-        <br></br>&#183; you were referred to us by another client. 
-        <br></br>&#183; you read some of this page and want to see if we can be of help
+        <ul>
+        <li>are IT or architecture leader at a medium-sized enterprise or a large enterprise who is not in the IT business.</li>
+        <li>you were referred to us by another client. </li>
+        <li>you read some of this page and want to see if we can be of help</li>
+        </ul>
+
         {/* <br></br>please do <a href="mailto:info@4sTek.com?Subject=">reach out to us</a>. */}
          
 
@@ -40,12 +43,12 @@ function MiddleContent() {
         <div class="shadow p-3 mb-5 bg-white rounded">
         <b>Bring us in when you</b>
         <p style={{textAlign: 'left', minHeight: 140}}>
-
-        &#183; are about to kick off a major enterprise IT project  
-            <br></br>&#183; want someone to validate enterprise architecture plans
-            <br></br>&#183; are making major technology decisions and want a second opinion on costs 
-            <br></br>&#183; want help evaluating competing technology options
-
+        <ul>
+        <li>are about to kick off a major enterprise IT project</li>
+        <li> want someone to validate enterprise architecture plans</li>
+        <li>are making major technology decisions and want a second opinion on costs</li>
+        <li>want help evaluating competing technology options</li>
+            </ul>
 {/*           <ul>
             <li> are about to kick off a major enterprise IT project  </li>
             <li> want someone to validate enterprise architecture plans</li>
