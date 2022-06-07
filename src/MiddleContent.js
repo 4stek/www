@@ -50,8 +50,7 @@ function MiddleContent() {
         <li>want help evaluating competing technology options</li>
             </ul>
 {/*           <ul>
-            <li> are about to kick off a major enterprise IT project  </li>
-            <li> want someone to validate enterprise architecture plans</li>
+            <li> want someone to validate enterprise architecture plans for new initiatives</li>
             <li> are making major technology decisions and want a second opinion on costs </li>
             <li> want help evaluating competing technology options</li>
           </ul> */}
